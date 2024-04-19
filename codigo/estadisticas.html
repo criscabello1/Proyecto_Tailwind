@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="icon" type="image/jpg" href="./../Imagenes/Logo.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+    
+    
+    <title>Proyecto Tailwind CSS</title>
+</head>
+<body class= "w-[100%] h-[auto]  font-mtsr bg-gradient-to-t from-gray-300 to-green-500 ">
+    
+    <nav class=" w-[100%] flex justify-between items-center">
+        <div>
+            <img class="w-[60px] animate__animated animate__flip md:w-[75px] lg:w-[85px] bg-white rounded-2xl m-3" src="./../Imagenes/Logo.png" alt="Logo ">
+        </div>
+
+        <div class= "flex justify-end lg:m-0 lg:justify-center font-bold w-[100%] absolute items-center animate__animated animate__backInDown">
+            <a href="./../index.html" class="hover:text-gray-200 hover:bg-slate-900 rounded-full p-2 text-[14px] sm:text-[15px]  md:text-[17px] lg:text-[19px] lg:mx-[15px] shake-slow shake-freeze">Artistas</a>
+            <a href="./estadisticas.html" class="hover:text-gray-200 hover:bg-slate-900 rounded-full mr-5 lg:mr-0 p-2 text-[14px] sm:text-[15px]  md:text-[17px] lg:text-[19px] lg:mx-[15px] shake-slow shake-freeze">Estadísticas</a>
+        </div>
+    </nav>
+
+    <header class="w-[100%] text-center">
+        <h1 class="text-2xl my-[50px] font-bold sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl xl:mt-[50px]">Estadísticas de Cristóbal 2023</h1>
+    </header>
+    
+    <main class="w-[100%] grid place-items-center lg:grid-cols-2 gap-8 lg:mt-[100px] xl:gap-x-[80px] xl:gap-y-[50px]">   
+        <div class="w-[95%] sm:w-[500px] lg:w-[470px] xl:w-[500px] h-[200px] bg-gray-800 rounded-xl flex flex-col items-center lg:items-start xl:place-self-end">
+            <h2 class="text-gray-100 my-4 font-bold lg:text-center lg:w-[100%] lg:m-0 lg:mt-[10px] lg:text-xl">Top de Reproducciones</h2>
+            <ul class="text-gray-100  lg:flex lg:flex-col lg:items-start lg:ml-[40px] lg:w-[100%] lg:m-0 lg:mt-[20px]">
+                <li><a href="https://open.spotify.com/intl-es/track/0EYOdF5FCkgOJJla8DI2Md" target="_blank" class="hover:text-gray-400" rel="noopener noreferrer">#01- "B.Y.O.B" - System Of A Down</a></li>
+                <li><a href="https://open.spotify.com/intl-es/track/6wVWJl64yoTzU27EI8ep20" target="_blank" class="hover:text-gray-400" rel="noopener noreferrer">#02- "Crying Lightning" - Arctic Monkeys</a></li>
+                <li><a href="https://open.spotify.com/intl-es/track/3GiJq4AQK7324mfIQbpiTf" target="_blank" class="hover:text-gray-400" rel="noopener noreferrer">#03- "Custer" - Slipknot</a></li>
+                <li><a href="https://open.spotify.com/intl-es/track/78PMpYDvjGiZdgwLsKizPS" target="_blank" class="hover:text-gray-400" rel="noopener noreferrer">#04- "Out of time Man" - Mano Negra</a></li>
+                <li><a href="https://open.spotify.com/intl-es/track/1lr05RqFhNJhpi8Hc6wbDC" target="_blank" class="hover:text-gray-400" rel="noopener noreferrer">#05- "Originala" - Movimiento Original</a></li>
+            </ul>
+        </div>
+
+        <div class="w-[95%] sm:w-[500px] lg:w-[470px] xl:w-[500px] h-[200px] bg-gray-800 rounded-xl flex flex-col items-center lg:items-start xl:place-self-start ">
+            <h2 class="text-gray-100 my-4 font-bold lg:text-xl lg:text-center lg:w-[100%] lg:m-0 lg:mt-[10px]">Top de Álbumes</h2>
+            <ul class="text-gray-100  lg:flex lg:flex-col lg:items-start lg:ml-[30px] lg:w-[100%] lg:m-0 lg:mt-[20px]">
+                <li><a href="https://open.spotify.com/intl-es/album/3sSfjX4fhZonjyZ10x0l0f" target="_blank" class="hover:text-gray-400" rel="noopener noreferrer">#01- "System Of A Down" - System Of A Down</a></li>
+                <li><a href="https://open.spotify.com/intl-es/album/3XbcvPX7hEupPOxPx7EVdh" target="_blank" class="hover:text-gray-400" rel="noopener noreferrer">#02- "Take A Look In The Mirror" - Korn</a></li>
+                <li><a href="https://open.spotify.com/intl-es/album/661Hz0qJK8WIp7vAWsqKvk" target="_blank" class="hover:text-gray-400" rel="noopener noreferrer">#03- "Collide With The Sky" - Pierce The Veil</a></li>
+                <li><a href="https://open.spotify.com/intl-es/album/1KLBdhphdiK82hYpAiw8DR" target="_blank" class="hover:text-gray-400" rel="noopener noreferrer">#04- "Violent Things" - The Brobecks</a></li>
+                <li><a href="https://open.spotify.com/intl-es/album/0bUTHlWbkSQysoM3VsWldT" target="_blank" class="hover:text-gray-400" rel="noopener noreferrer">#05- "Demon Days" - Gorillaz</a></li>
+            </ul>
+        </div>
+
+        <div class="w-[95%] sm:w-[500px] lg:w-[470px] xl:w-[500px] h-[200px] bg-gray-800 rounded-xl flex flex-col items-center xl:place-self-end">
+            <h2 class="text-gray-100  my-4 font-bold lg:text-xl ">Géneros</h2>
+            <ul class="text-gray-100 ">
+                <li class="flex gap-3 justify-between items-center w-[350px] lg:w-[435px] "> 
+                    <p >Metal Alternativo</p>
+                    <meter class="w-[150px]" value=".6" max="1"></meter>
+                <li class="flex gap-3 justify-between items-center w-[350px] lg:w-[435px]"> 
+                    <p >Rock Alternativo</p>
+                    <meter class="w-[150px]" value=".7" max="1" ></meter>
+                <li class="flex gap-3 justify-between items-center w-[350px] lg:w-[435px]"> 
+                    <p >Blues</p>
+                    <meter class="w-[150px]" value=".3" max="1" ></meter>
+                <li class="flex gap-3 justify-between items-center w-[350px] lg:w-[435px]"> 
+                    <p >Rap</p>
+                    <meter class="w-[150px]" value=".4" max="1" ></meter>
+                <li class="flex gap-3 justify-between items-center w-[350px] lg:w-[435px]"> 
+                    <p >Indie rock</p>
+                    <meter class="w-[150px]" value=".2" max="1" ></meter>
+               
+            </ul>
+        </div>
+
+        <div class="w-[95%] sm:w-[500px] lg:w-[470px] xl:w-[500px] h-[200px] bg-gray-800 rounded-xl flex flex-col items-center xl:place-self-start ">
+            <h2 class="text-gray-100  my-4 font-bold lg:text-xl ">Análisis de Música </h2>
+            <ul class="text-gray-100 ">
+                <li class="flex gap-3 justify-between items-center w-[350px] lg:w-[435px]"> 
+                    <p >Energética</p>
+                    <meter class="w-[150px]" value=".7" max="1" ></meter>
+                <li class="flex gap-3 justify-between items-center w-[350px] lg:w-[435px]"> 
+                    <p>Triste</p>
+                    <meter class="w-[150px]"  value=".15" max="1" ></meter>
+                <li class="flex gap-3 justify-between items-center w-[350px] lg:w-[435px]"> 
+                    <p >Relajante</p>
+                    <meter class="w-[150px]" value=".3" max="1" ></meter>
+                <li class="flex gap-3 justify-between items-center w-[350px] lg:w-[435px]"> 
+                    <p >Positiva</p>
+                    <meter class="w-[150px]" value=".4" max="1" ></meter>
+                <li class="flex gap-3 justify-between items-center w-[350px] lg:w-[435px]"> 
+                    <p >En vivo</p>
+                    <meter class="w-[150px]" value=".3" max="1" ></meter>
+               
+            </ul>
+        </div>  
+          
+        
+    </main>
+
+
+    <footer class="relative bottom-0 w-[100%] mt-[40px] lg:mt-[115px] flex flex-col justify-center">
+        <div class="flex justify-center font-bold w-[100%] items-center">
+            <a href="./../index.html" class="hover:text-gray-200 hover:bg-slate-900 rounded-full p-2 text-[14px] sm:text-[15px]  md:text-[17px] lg:text-[19px] lg:mx-[15px]">Artistas</a>
+            <a href="./estadisticas.html" class="hover:text-gray-200 hover:bg-slate-900 rounded-full  p-2 text-[14px] sm:text-[15px]  md:text-[17px] lg:text-[19px] lg:mx-[15px]">Estadísticas</a>
+        </div>
+        <div class="flex justify-center sm:text-[15px] md:text-[17px] lg:text-[19px]">
+            <p>© 2024 Spotify AB</p>
+        </div>
+    </footer>
+
+</body>
+<script>
+    AOS.init();
+  </script>
+</html>
